@@ -1,0 +1,185 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f5b991b2-bbcb-4d6c-a89c-6801c3d50251")
+	(paper "A3")
+	(title_block
+		(rev "1")
+	)
+	(lib_symbols)
+	(sheet
+		(at 73.025 31.115)
+		(size 31.75 19.685)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "24c372b7-6da8-44d6-8e26-65c017b6cf8c")
+		(property "Sheetname" "CPU"
+			(at 73.025 30.4034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "CPU.kicad_sch"
+			(at 73.025 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CPU_Board"
+				(path "/f5b991b2-bbcb-4d6c-a89c-6801c3d50251"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 191.77 31.115)
+		(size 37.465 19.685)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3aaf31a2-4464-4ab2-8f3c-fb72fda375c0")
+		(property "Sheetname" "IO_Ports"
+			(at 191.77 30.4034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "IO_Ports.kicad_sch"
+			(at 191.77 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CPU_Board"
+				(path "/f5b991b2-bbcb-4d6c-a89c-6801c3d50251"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 33.02 31.115)
+		(size 31.75 19.685)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "b1de1a07-b966-4887-998c-65d3c92f37fe")
+		(property "Sheetname" "Power_Reset"
+			(at 33.02 30.4034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Power_Reset.kicad_sch"
+			(at 33.02 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CPU_Board"
+				(path "/f5b991b2-bbcb-4d6c-a89c-6801c3d50251"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 155.575 31.115)
+		(size 31.75 19.685)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e785100f-5c94-459c-92b4-9599172952bf")
+		(property "Sheetname" "Control_logic"
+			(at 155.575 30.4034 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "Control_Logic.kicad_sch"
+			(at 155.575 51.3846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "CPU_Board"
+				(path "/f5b991b2-bbcb-4d6c-a89c-6801c3d50251"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
