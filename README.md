@@ -20,3 +20,7 @@ Future plans
 2. Build a HI-RES board.
 3. Build some of the other board featured in the Excalibur 64 users group.
 4. All the parts used on the original are still available so would be great to build one as the founders intended. All hail the founders!!
+
+Credits
+=======
+All the orginal schematics + more is availble from https://www.microbee-mspp.org/repository/ . Info from here was what this design is based on.
