@@ -1,10 +1,12 @@
 # Excallibur-64
 A reimagining of the seminal Excalibur 64 Computer
 This is version 3 - yet to tested but fixed a few things from version 2. 
+There is no video yet, that is a seperate beast. 
 
 Goal for this project
 =====================
-Design build a new version of the  Excalibur 64. 
+Design build a new version of the  Excalibur 64. First major goal is to get all but the video going. So need to write firmware to take input from the keyboard output text via the serial port. 
+Final version will have video as per orginal design.
 
 Design requirements
 ==================
