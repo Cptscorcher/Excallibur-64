@@ -1,0 +1,5 @@
+
+IC16 20 to J4 	11 IORQ
+IC25 6  to IC25 6  5v 
+IC27 2  to J4 	14 /RD
+IC27 4  to J4 	41 A14
