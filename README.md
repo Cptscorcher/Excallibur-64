@@ -8,7 +8,7 @@ Design build a new version of the  Excalibur 64.
 
 Design requirements
 ==================
-1. Needs to have the same look and feel of a use the same look and feel of a real Excalibur 64 so the circuit for the sound and, parallel and keyboard is the same but with CMOS where possible.
+1. Needs to have the same look and feel of a real Excalibur 64 so the circuit for the sound and, parallel and keyboard is the same but with CMOS where possible.
 2. Same goes for the video but need to think about a work around for the 6331-1 PROM.
 3. There are some differences for practically and cost. For example using a single SRAM and single Flash ROM instead of two ROMs. Burning ROMs is a pain maybe when I do a 'pitch perfect' PCB I'll use DRAM and PROMS. The power supply is also different. At $25 I'm not using a LM323 for a +5 reg and since we are using a RS232 line driver IC there is no need for -12v. Its great to be authentic but a different power circuit isn't going to change the experience.
 
