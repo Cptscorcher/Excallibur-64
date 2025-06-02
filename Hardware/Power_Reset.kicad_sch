@@ -6800,6 +6800,144 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "artemisa:Push_button"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "Push_button"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Push_button_1_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 1.27) (xy 0 3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 1.27) (xy -2.54 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "artemisa:R"
 			(pin_numbers
 				(hide yes)
@@ -9642,35 +9780,16 @@
 		(uuid "f008b403-9b8f-41d1-b221-d5dc88a8d9b5")
 	)
 	(symbol
-		(lib_id "74xx:74LS04")
-		(at 261.62 222.25 0)
-		(unit 7)
+		(lib_id "artemisa:Push_button")
+		(at 204.47 128.27 0)
+		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "112a50fc-7d5d-47e4-8811-11bd36c65f29")
-		(property "Reference" "U101"
-			(at 267.97 220.9799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "74AHCU04"
-			(at 267.97 223.5199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_DIP:DIP-14_W7.62mm_Socket_LongPads"
-			(at 261.62 222.25 0)
+		(uuid "00000000-0000-0000-0000-00005d2e890c")
+		(property "Reference" "SW1"
+			(at 204.47 123.1646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9678,71 +9797,53 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "http://www.ti.com/lit/gpn/sn74LS04"
-			(at 261.62 222.25 0)
+		(property "Value" "Push_button"
+			(at 204.47 130.81 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "artemisa:Push_button_angled"
+			(at 204.47 128.27 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 204.47 128.27 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 204.47 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(property "Description" "Hex Inverter"
-			(at 261.62 222.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "6"
-			(uuid "7c56480e-b506-4c0e-8189-26e8180598a9")
 		)
 		(pin "1"
-			(uuid "e22579d2-6c4a-4df0-862d-51a12a84eb60")
-		)
-		(pin "14"
-			(uuid "1e4a942b-c244-43d5-9bec-a912f48efeb1")
-		)
-		(pin "10"
-			(uuid "57008f97-32fa-4302-9c98-42ec0d828f2e")
-		)
-		(pin "12"
-			(uuid "cdac6363-d90c-4320-afea-849ef52053a1")
-		)
-		(pin "11"
-			(uuid "0586b496-9445-4826-a3df-adf17b911f73")
-		)
-		(pin "13"
-			(uuid "ac6b6311-268b-4621-9db0-460e732fc49d")
-		)
-		(pin "4"
-			(uuid "74122795-aeab-4367-aef6-b4effce002ab")
-		)
-		(pin "9"
-			(uuid "e5fead0f-8671-42a0-9d5a-fed7737b04fc")
-		)
-		(pin "5"
-			(uuid "a6c057fc-23e7-4b4f-9055-90522586cfe8")
-		)
-		(pin "8"
-			(uuid "74b23bb5-3eb8-48bb-a662-90ee413e385d")
-		)
-		(pin "7"
-			(uuid "5988249c-59f5-4d9c-b7af-bb363ec5ccec")
-		)
-		(pin "3"
-			(uuid "a333df40-24ec-4f10-a1c5-7fa36cea82a4")
+			(uuid "b5c982b8-42bf-46d3-8d37-9f6cd5db17ab")
 		)
 		(pin "2"
-			(uuid "273bb62c-94cd-4428-8889-2a55909db0c2")
+			(uuid "0ae20a84-6157-4c53-abb1-49e9a43fddea")
 		)
 		(instances
 			(project "CPU_Board"
 				(path "/f5b991b2-bbcb-4d6c-a89c-6801c3d50251/b1de1a07-b966-4887-998c-65d3c92f37fe"
-					(reference "U101")
-					(unit 7)
+					(reference "SW1")
+					(unit 1)
 				)
 			)
 		)
