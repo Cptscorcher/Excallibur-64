@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "DigiKey")(type "KiCad")(uri "${KIPRJMOD}/Libs/MFS201N-16-Z_NDC.kicad_sym")(options "")(descr ""))
+)
