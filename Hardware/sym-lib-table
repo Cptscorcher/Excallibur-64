@@ -1,8 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "artemisa")(type "KiCad")(uri "${KIPRJMOD}/artemisa.kicad_sym")(options "")(descr "")(disabled)(hidden))
-  (lib (name "PWR_conn")(type "KiCad")(uri "${KIPRJMOD}/pwr_conn.kicad_sym")(options "")(descr "")(disabled)(hidden))
-  (lib (name "Microbee")(type "KiCad")(uri "${KIPRJMOD}/FreeBee.kicad_sym")(options "")(descr "")(disabled)(hidden))
-  (lib (name "DigiKey")(type "KiCad")(uri "${KIPRJMOD}/Libs/MFS201N-16-Z_NDC.kicad_sym")(options "")(descr ""))
-  (lib (name "Tact")(type "KiCad")(uri "F:/old_computers/Excalibur/Kicad/Libraries/2025-04-20_22-15-18.kicad_sym")(options "")(descr ""))
-)
